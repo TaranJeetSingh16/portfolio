@@ -86,7 +86,7 @@ header nav .search {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 4px;
+  padding: 14px;
   border-radius: 10px;
 }
 
