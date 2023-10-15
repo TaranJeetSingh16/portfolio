@@ -495,5 +495,80 @@ header nav .search i {
       display: block;
       margin-bottom: 10px;
   }
+  .about .description .line {
+  height: 1.5px;
+  width: 800px;
+  background-color: #fec86a;
+  margin-right: 30px;
+}
+.about .description p {
+  color: #fbfbfb;
+  font-size: 10px;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 100px;
+}
+.skill-card h2 {
+ 
+  font-size: 15px;
+  font-weight: 400;
+  color: #fbfbfb;
+}
+.portfolio-card .overlay h3 {
+  color: #fbfbfb;
+  font-size: 14px;
+}
+.portfolio-card .overlay p {
+  color: #fbfbfb;
+  font-size: 5px;
+  text-align: center;
+}
+.experience h1 {
+  position: relative;
+  color: #fbfbfb;
+  font-size: 56px;
+  font-family: "Libre Baskerville", serif;
+  transform: translate(-40%, -40%);
+  top: 10%;
+  left: 15%;
+}
+.exp-desc::before {
+  content: "";
+  height: 160px;
+  width: 2.5px;
+  background-color: #fbfbfb;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: -5%;
+}
+.exp-desc p {
+  color: #fbfbfb;
+  font-size: 6;
+  font-weight: 400;
+}
+.contact-me h1 {
+  font-size: 40px;
+  color: #fbfbfb;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 800;
+}
+.contact {
+  display: flex;
+  gap: 14px;
+}
+.contact-card {
+  background-color: #fec86a;
+  padding: 1.9px;
+  border-radius: 8px;
+  display: flex;
+  gap: 7px;
+  margin-top: 7.5vh;
+}
+  
 }
 
